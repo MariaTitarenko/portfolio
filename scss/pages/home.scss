@@ -1,0 +1,44 @@
+@import "../global";
+
+/*home page style*/
+*{
+	margin: 0; 
+	padding: 0;
+}
+
+
+.hero {
+	height: 700px; 
+	width: auto;
+	background: url(../../imgs/hero-bg-img.jpg) no-repeat;
+	border-bottom: 10px solid $prime; 
+}
+
+.btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: white;
+  background: transparent;
+  padding: 1.5rem 3rem;
+  border: 2px solid white;
+  width: auto;
+  border-radius: 4rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.triangle {
+	background: #3a9c61;
+	height: 165px;
+	width: 165px;
+	radius: 50%;
+}
+.bg-gray {
+    background: #75726e;
+}
+
+
